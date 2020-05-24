@@ -10,7 +10,7 @@ $green: green;
     font-family: monospace;
     font-size: 1.5rem;
     &__container {
-        width: 20%;
+        width: fit-content;
         border: 2px solid $background;
         padding: 20px;
         background: $background;
@@ -23,7 +23,7 @@ $green: green;
         text-align: center;
         text-transform: uppercase;
         background: $background;
-        padding: 2%;
+        padding: 5px;
         display: inline-block;
     }
     textarea {
